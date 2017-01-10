@@ -1,0 +1,365 @@
+/**
+ * ryanw. design stylesheet
+ * author: Ryan Wieseler
+ *
+ * Credit is left where credit is due: html5 boilerplate for the reset. More to come as the site evolves.
+ * 
+ */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+a img {
+	border: 0;
+}
+html {
+	background: url(../images/bg.jpg) #fff repeat-y;
+}
+#color-explode {
+	position:fixed;
+	right:0;
+	bottom: 0;
+}
+.logo-link {
+	float: left;
+}
+#col2 ul {
+	padding-right: 19.86px;
+}
+#col2 ul li {
+	clear: both;
+	width:100%;
+	list-style-type: none;
+}
+.clear {
+	clear: both;
+}
+
+/* STRUCTURE +++++++++++++++  */
+
+#header {
+	height: 60px;
+}
+#container {
+	position: relative;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1111;
+	padding-left: 20px;
+}
+#main {
+	width: 100%;
+	min-height: 438px;
+	position: relative;
+}
+p {
+	margin-right: auto;
+	margin-top: 1.241em;
+	width: 46.971em;
+}
+#col-bg {
+	overflow:auto;
+	background:url(../images/col-bg-bg.png) repeat;
+	border: #35373a 1px dashed;
+	margin-top:19.86px;
+}
+#col1 {
+	width:61.875%;
+	float:left;
+}
+#col2 p {
+	padding:0;
+	margin:12.26px 0 0 0;
+	width:95%;
+}
+#col2 {
+	width:38.125%;
+	float:right;
+	margin-bottom:20px;
+}
+.center {
+	width: 80px;
+	float: left;
+	position: relative;
+	margin-top: -6px;
+}
+/* END Structure */
+/* TYPEOGRAPHY +++++++++++++++++ */
+body {
+	font: 1em/1.618em Helvetica, Arial, sans-serif;
+	color: #231f20;
+	width: 100%;
+	height:100%;
+	margin-top:52px;
+}
+h2 {
+	color: #231f20;
+	margin-top: 19.86px;
+	font-size: 1.618em;
+	font-weight:normal;
+}
+#dp {
+	margin-top:52px;
+	font-weight:bold;
+}
+.design-process h2 {
+	margin:1.618em 0;
+}
+#main h3 {
+	margin: 19.86px 0 16px;
+}
+h4 {
+	color: #231f20;
+	margin: 10px 0 5px 0;
+	font-size: 1em;
+}
+.text-center {
+	text-align:center;
+}
+.in-para-link {
+	font-weight:bold;
+}
+.foot-title {
+	float:right;
+	margin-bottom:12.27px;
+	size:2.618em
+}
+/* END Typeography */
+/* MAIN NAV +++++++++++++++++ */
+.nav {
+	position: relative;
+	z-index: 10;
+}
+.nav ul {
+	padding-left: 239px;
+}
+.nav ul li {
+	font-size: 1em;
+	list-style-type: none;
+	margin-top: 10px;
+	float: left;
+	margin-right: 2.009em;
+	width: 6.854em;
+}
+.nav ul li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	height: 2.009em; /*44.25*/
+	border: 0px;
+	color: #535659;
+	line-height: 2.009em;
+	margin-top: 5px;
+}
+a {
+	text-decoration: none;
+	color: #35373a;
+}
+.nav ul li a:link {
+	color: #535659;
+}
+.nav ul li a:hover, .active, .active:visited, h2 a:hover {
+	background-color: #a6a8ab;
+	color: #fff;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a.logo-link:hover {
+	text-decoration: none;
+}
+/* end MAIN NAV */
+/* SUB NAV+++++++++++++ */
+.sub-nav {
+	float:right;
+}
+.sub-nav li {
+	font-size: 12.27px;
+	list-style-type: none;
+	float: left;
+	margin-right:40px;/*margin-bottom: 19.86px;*/
+}
+.sub-nav li a {
+	display: inline;
+	text-decoration: none;
+	text-align: left;
+	color: #535659;
+	width: 130px;
+}
+.sub-nav li a:hover {
+	border-bottom: 1px solid #535659;
+	background-color:transparent;
+	color: #35373a;
+	text-decoration:none;
+}
+/*End Sub Nav */
+/* PORTFOLIO +++++++++++++++++ */
+.port-site-img {
+	margin-top: 19.86px;
+	margin-right: 19.86px;
+	height: 165px;
+	width: 220px;
+	float: left;
+	-webkit-box-shadow: 3px 3px 7px #dee3f7;
+	-moz-box-shadow: 3px 3px 7px #dee3f7;
+	box-shadow: 3px 3px 7px #dee3f7;/*background-color: #333;*/
+}
+#main .port {
+	margin: 0px;
+	width: 325px;
+	color: #535659;
+}
+/* END Portfolio */
+/* PORTFOLIO IMAGES +++++++++++++++++ */
+#port1 {
+	background: url(../images/eagleton-port-img.jpg) no-repeat 0 -165px;
+}
+#port1:hover {
+	background:url(../images/eagleton-port-img.jpg) no-repeat 0 0;
+}
+#port2 {
+	background: url(../images/eagleton-logo-port-img.jpg) no-repeat 0 -165px;
+}
+#port2:hover {
+	background:url(../images/eagleton-logo-port-img.jpg) no-repeat 0 0;
+}
+#port3 {
+	background: url(../images/watertown-port-img.jpg) no-repeat 0 -165px;
+}
+#port3:hover {
+	background:url(../images/watertown-port-img.jpg) no-repeat 0 0;
+}
+#port4 {
+	background: url(../images/peaces-port-img.jpg) no-repeat 0 -165px;
+}
+#port4:hover {
+	background:url(../images/peaces-port-img.jpg) no-repeat 0 0;
+}
+#port5 {
+	background: url(../images/tippr-citizen-port-img.jpg) no-repeat 0 -165px;
+}
+#port5:hover {
+	background:url(../images/tippr-citizen-port-img.jpg) no-repeat 0 0;
+}
+#port6 {
+	background: url(../images/tippr-circle-ads-port-img.jpg) no-repeat 0 -165px;
+}
+#port6:hover {
+	background:url(../images/tippr-circle-ads-port-img.jpg) no-repeat 0 0;
+}
+/* end Portfolio Images */
+/* PORTFOLIO DETAIL ++++++++++++++ */
+.btt {
+	display:block;
+	margin-top:12.27px;
+}
+.arrow {
+	margin-right:5px;
+}
+a.back:hover {
+	background-color:transparent;
+	color: #535659;
+}
+.design-process {
+	width:100%;
+	margin-bottom:52px;
+}
+.explanation {
+	width:62.5%; /*960-330-19.86-10 width - imgWidth - goldenRationGutter - right gutter*/
+	min-height:243px;
+	margin-left:353.86px;
+}
+.explanation p {
+	width: 100% !important;
+	margin: 12.26px 0px 10px 0px;
+}
+.design-process h4 {
+	color: #231f20;
+	margin: 32.138px 0 15.86px 0;
+	font-size:19.86px;
+	font-weight:normal;
+}
+ol {
+	font-weight:bold;
+	margin: 0px 0px 0px 20.87px;
+}
+.design-process-img {
+	height:243px;
+	width:330px;
+	float:left;
+	padding-right:19.86px;
+	margin-bottom:19.86px;
+}
+#watertown-info-arch-img {
+	margin:5% 10%;
+}
+#de-logo {
+	margin: 10% 0 0 28%;
+}
+/* End Portfolio Detail */
+/* EAGLETONHOPE.COM DESIGN PROCESS IMAGES ++++++++++++*/ 
+
+a#eagletonhope-info-arch {
+	background:url(../images/de-info-arch-sm.jpg) no-repeat 0 -243px;
+}
+a#eagletonhope-info-arch:hover {
+	background:url(../images/de-info-arch-sm.jpg) no-repeat 0 0px;
+}
+a#eagletonhope-wireframe {
+	background:url(../images/de-wireframe.jpg) no-repeat 0 -243px;
+}
+a#eagletonhope-wireframe:hover {
+	background:url(../images/de-wireframe.jpg) no-repeat 0 0px;
+}
+a#eagletonhope-design-comps {
+	background:url(../images/de-design-comps.jpg) no-repeat 0 -243px;
+}
+a#eagletonhope-design-comps:hover {
+	background:url(../images/de-design-comps.jpg) no-repeat 0 0px;
+}
+/* End Eagletonhope.com Design Process Images */
+/* WATERTOWN DESIGN PROCESS IMAGES+++++++++++++ */ 
+a#watertown-info-arch {
+	background: url(../images/watertown-info-arch-dp.jpg) no-repeat 0 -243px;
+}
+a#watertown-info-arch:hover {
+	background: url(../images/watertown-info-arch-dp.jpg) no-repeat 0 0;
+}
+a#watertown-wireframe {
+	background:url(../images/watertown-wireframes-dp.jpg) no-repeat 0 -243px;
+}
+a#watertown-wireframe:hover {
+	background:url(../images/watertown-wireframes-dp.jpg) no-repeat 0 0;
+}
+a#watertown-design-comps {
+	background:url(../images/watertown-design-comps-dp.jpg) no-repeat 0 -243px;
+}
+a#watertown-design-comps:hover {
+	background:url(../images/watertown-design-comps-dp.jpg) no-repeat 0 0;
+}
+/* End Watertown Design Process Images */
+/* CONTACT+++++++++++++ */
+
+#contact p {
+	margin-top:0px;
+	margin-bottom: 
+}
+#recaptcha_area {
+	margin: 10px 0;
+}
+/*End contact */
+/* GIGPOSTERS ++++++++++++++ */
+.gigposters p {
+	height:887px;
+}
+/*END Gigposters */
+/* FOOTER  ++++++++++++++++ */
+#footer {
+	width: 100%;
+}
+#footer p {
+	width: 100%;
+	text-align:right;
+}
